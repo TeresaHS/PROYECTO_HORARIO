@@ -1,3 +1,7 @@
+html{
+    width: 1920px;
+}
+
 *{
     font-family: "Google Sans",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -147,6 +151,7 @@ h1{
 #tablaHorario select{
     display: block;
     width: 100%;
+    height: 100%;
     box-sizing: border-box;
     overflow: hidden;
 }
