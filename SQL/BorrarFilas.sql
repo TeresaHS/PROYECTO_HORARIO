@@ -1,0 +1,14 @@
+USE proyecto_horario;
+
+DELETE FROM horario;
+DELETE FROM imparte;
+DELETE FROM horas;
+DELETE FROM grupos;
+DELETE FROM modulos;
+DELETE FROM profesores;
+
+ALTER TABLE profesores AUTO_INCREMENT = 1;
+ALTER TABLE modulos AUTO_INCREMENT = 1;
+ALTER TABLE grupos AUTO_INCREMENT = 1;
+ALTER TABLE horas AUTO_INCREMENT = 1;
+ALTER TABLE horario AUTO_INCREMENT = 1;

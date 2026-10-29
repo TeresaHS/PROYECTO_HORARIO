@@ -1,0 +1,18 @@
+
+ATRIBUTOS EN UNA CLASE EN PHP:
+------------------------------
+
+class Persona {
+    // Atributos de la clase
+    public string $nombre;
+    private int $edad;
+    protected string $correo = 'sin_correo@ejemplo.com'; // Con valor por defecto
+}
+
+
+Propiedad           Acceso desde fuera de la clase
+public $nombre      $obj->nombre
+______________________________________________________________________________________________
+
+
+

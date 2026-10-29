@@ -1,0 +1,241 @@
+/*html{
+    width: 1920px;
+}*/
+
+*{
+    font-family: "Google Sans",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    min-height: 450px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    font-size: 5px;
+}
+
+nav{
+    padding: 3em 5em;
+    font-weight: 500;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 25px;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    background-color: #074595;
+    color: white;
+    font-size: 16px;
+}
+
+nav li:last-child {
+    float: right;
+    margin: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-family: sans-serif;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+header{
+    border-bottom: 1px solid rgb(49, 49, 174);
+}
+
+#indiceActivo{
+    color: #074595;
+    background-color: white;
+    border: 1px solid rgb(49, 49, 174);
+}
+
+#volver{
+    position: sticky;
+    top: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+    display: inline-block;
+    color: #074595;
+    font-weight: bolder;
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+}
+
+#tablaGrupos{
+    border: 1px solid rgb(78, 79, 78);
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+    top: 50px;
+    text-align: left;
+}
+
+#tablaGrupos tr{
+    height: 50px;
+}
+
+#tablaGrupos th, #tablaGrupos td{
+    padding: 0px 10px;
+    border: 1px solid rgb(78, 79, 78);
+}
+
+#tablaGrupos th{
+    width: 100px;
+    color: #074595;
+}
+
+#tablaGrupos td:nth-child(3) {
+    width: 130px;
+    text-align: center;
+}
+
+#tablaGrupos td a{
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+    height: 35px;
+    align-content: center;
+    font-weight: bolder;
+}
+
+#tablaGrupos td a:nth-child(1) {
+    color: white;
+    margin-right: 10px;
+    background-color: #226FD6;
+}
+
+#tablaGrupos td a:nth-child(2) {
+    color: #226FD6;
+    background-color: #CDD6FF;
+}
+
+#tablaGrupos td a:only-child {
+    color: #555;
+    background-color: #E0E0E0;
+    width: 130px;
+    margin-right: 0;
+}
+
+
+/* ----------------------------------------------------------------------------------------- */
+
+#tablaHorario{
+    border: 1px solid rgb(78, 79, 78);
+    border-collapse: collapse;
+    margin: 0 auto;
+    table-layout: fixed;   /* reparte el ancho a partes iguales, ignorando el contenido */
+    width: 90%;
+    text-align: left;
+}
+
+#tablaHorario select{
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#tablaHorario thead, #tablaHorario tr td:first-child{
+    background-color: #CDD6FF;
+    font-weight: 700;
+    color: #074595;
+}
+
+
+#tablaHorario th, #tablaHorario td{
+    padding: 0px 10px;
+    border: 1px solid #99acff;
+}
+
+
+#tablaHorario th, #tablaHorario td{
+    width: 16.66%;
+}
+
+#tablaHorario tr th:first-child, #tablaHorario tr td:first-child{
+    width: 100px;
+}
+
+#tablaHorario td, #tablaHorario th{
+    height: 50px;
+}
+
+#tablaHorario input[type="text"]{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px 0px 10px 0px;
+    /*box-sizing: border-box, el width: 100% sigue siendo el 100% del content box del td, no del ancho total de la celda*/
+}
+
+#tablaHorario input[type="radio"]{
+    margin: 0px;
+    height: 10px;
+}
+
+#tablaHorario tbody td{
+    vertical-align: top;
+    padding: 10px;
+}
+
+#tablaHorario tbody{
+    margin: 0px;
+    font-size: 15px;
+}
+
+#tablaHorario th{
+    text-align: center;
+}
+
+#botonesEdicion{
+    text-align: right;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#restablecer{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#modificar{
+    display: inline-block;
+    background-color: #226FD6;
+    color: white;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0px;
+}
